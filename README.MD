@@ -44,3 +44,6 @@ Designs were generated using Stitch.
 
 ### Favorites Screen
 ![Favorites Screen](screenshots/Screenshot_2026-01-12-22-41-13-34_02787f92d4429eb6b494c7147992b0de.jpg)
+
+### videolink
+https://www.loom.com/share/789e31e9280b4b2899711822d3ce6222
