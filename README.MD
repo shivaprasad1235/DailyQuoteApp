@@ -40,7 +40,7 @@ Designs were generated using Stitch.
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](Screenshot_2026-01-12-22-41-04-35_02787f92d4429eb6b494c7147992b0de.jpg)
 
 ### Favorites Screen
-![Favorites Screen](screenshots/favorites_screen.png)
+![Favorites Screen](screenshots/Screenshot_2026-01-12-22-41-13-34_02787f92d4429eb6b494c7147992b0de.jpg)
