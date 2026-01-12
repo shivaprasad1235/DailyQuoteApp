@@ -37,3 +37,10 @@ When the initial API failed on my device, I iterated by switching to a more stab
 ## Design
 Designs were generated using Stitch.
 (Screenshots / link included)
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### Favorites Screen
+![Favorites Screen](screenshots/favorites_screen.png)
