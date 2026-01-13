@@ -1,49 +1,143 @@
-# Daily Quote App
+📱 Daily Quote App
 
-A simple Android app that displays a random daily quote, allows users to favorite quotes, and share them.
+A simple and elegant Daily Quote Android application built using Jetpack Compose, designed to demonstrate clean UI, basic persistence, authentication, and effective use of AI tools during development.
 
-## Features
-- Random quote from public API
-- Save favorite quotes
-- Persistent storage using SharedPreferences
-- Share quote via system share sheet
-- Jetpack Compose UI
+✨ Features
+🔐 Authentication (Firebase)
 
-## Tech Stack
-- Kotlin
-- Jetpack Compose
-- Retrofit
-- ZenQuotes API
+Email & password sign up
 
-## AI Tools Used
-- ChatGPT – used for:
-    - Generating Jetpack Compose UI
-    - API integration with Retrofit
-    - Debugging crashes using Logcat
-    - Iterating on API issues and fixes
-- Stitch – used to generate initial UI design
+Login and logout functionality
 
-## AI Workflow
-I used AI tools to rapidly scaffold the app, generate Compose layouts, and debug issues.
-When the app crashed due to missing permissions, I used Logcat output to identify the issue and fixed it.
-When the initial API failed on my device, I iterated by switching to a more stable API and updated the data model accordingly.
+Session persistence (stay logged in)
 
-## Setup Instructions
-1. Clone the repository
-2. Open in Android Studio
-3. Sync Gradle
-4. Run on emulator or physical device
+Simple user profile screen showing logged-in email
 
-## Design
-Designs were generated using Stitch.
-(Screenshots / link included)
-## Screenshots
+💬 Quotes
 
-### Home Screen
-![Home Screen](Screenshot_2026-01-12-22-41-04-35_02787f92d4429eb6b494c7147992b0de.jpg)
+Display a random daily quote on the home screen
 
-### Favorites Screen
-![Favorites Screen](screenshots/Screenshot_2026-01-12-22-41-13-34_02787f92d4429eb6b494c7147992b0de.jpg)
+Save quotes to favorites
 
-### videolink
-https://www.loom.com/share/789e31e9280b4b2899711822d3ce6222
+View all favorite quotes in a dedicated screen
+
+Favorites persist locally between app sessions
+
+🔔 Daily Quote Notification
+
+Daily quote notification scheduled using WorkManager
+
+Notification triggers once per day automatically
+
+🎨 UI & Design
+
+Built fully with Jetpack Compose
+
+Clean and minimal UI
+
+Bottom navigation for core features
+
+Profile access via top-right icon (standard Android UX pattern)
+
+🧠 AI-Assisted Development Workflow
+
+This project was built with extensive use of AI tools to improve development speed and code quality.
+
+AI tools used:
+
+ChatGPT – architecture planning, Compose UI guidance, debugging errors, and Gradle configuration help
+
+How AI helped:
+
+Breaking down features into manageable steps
+
+Debugging build and dependency issues
+
+Iterating quickly on UI and navigation logic
+
+Making informed architectural decisions (e.g., choosing Firebase for Android stability)
+
+AI was used as a development assistant, not as a replacement for understanding or decision-making.
+
+🎨 Design Process
+
+UI designs were generated using Stitch (Google AI design tool)
+
+The designs were used as inspiration and then manually implemented in Jetpack Compose
+
+Screenshots of the designs are included in the repository
+
+📁 Designs / Screenshots:
+/screenshots folder in this repository
+
+🛠 Tech Stack
+
+Language: Kotlin
+
+UI: Jetpack Compose (Material 3)
+
+Authentication: Firebase Authentication
+
+Persistence: SharedPreferences / Local storage
+
+Notifications: WorkManager
+
+Architecture: Simple modular separation (UI, Auth, Data, Notifications)
+
+🚀 Setup Instructions
+Prerequisites
+
+Android Studio (latest stable version)
+
+Android SDK 33+
+
+Firebase account
+
+Steps
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/DailyQuoteApp.git
+
+
+Open the project in Android Studio
+
+Sync Gradle dependencies
+
+Add your google-services.json file (Firebase setup)
+
+Run the app on an emulator or physical device
+
+📸 Screenshots
+
+Screenshots of the app and UI designs can be found in the screenshots/ directory.
+
+🎥 Demo Video
+
+A Loom video walkthrough is included in the submission, demonstrating:
+
+App functionality
+
+Authentication flow
+
+Profile screen
+
+Favorites
+
+Design process
+
+AI-assisted workflow
+
+📌 Notes
+
+Firebase was chosen over other backend options for its official Android support and SDK stability
+
+Material 3 experimental APIs are used with proper opt-in annotations
+
+The focus of this project is quality, clarity, and correctness, not feature overload
+
+👤 Author
+
+Shiva Prasad
+Android Developer
+GitHub: https://github.com/shivaprasad1235/DailyQuoteApp
